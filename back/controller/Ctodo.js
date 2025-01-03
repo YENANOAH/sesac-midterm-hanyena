@@ -3,7 +3,7 @@ const { Todo } = require("../models/index");
 /* Todos 전체 목록 불러오기 */
 exports.readAll = async (req, res) => {
   console.log(Todo());
-  res.render("todo", { Todo: todo });
+  res.render(todo);
 };
 
 /* Todo 한 개 불러오기 */
